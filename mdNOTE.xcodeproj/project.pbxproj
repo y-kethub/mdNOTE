@@ -14,6 +14,8 @@
 		8BCCD0AB293B4FD500FBA3EA /* mdNOTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCD0AA293B4FD500FBA3EA /* mdNOTETests.swift */; };
 		8BCCD0B5293B4FD500FBA3EA /* mdNOTEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCD0B4293B4FD500FBA3EA /* mdNOTEUITests.swift */; };
 		8BCCD0B7293B4FD500FBA3EA /* mdNOTEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCD0B6293B4FD500FBA3EA /* mdNOTEUITestsLaunchTests.swift */; };
+		8BCCD0C4293B502800FBA3EA /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCD0C3293B502800FBA3EA /* EditorView.swift */; };
+		8BCCD0C6293B505600FBA3EA /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCD0C5293B505600FBA3EA /* Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		8BCCD0B0293B4FD500FBA3EA /* mdNOTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mdNOTEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCCD0B4293B4FD500FBA3EA /* mdNOTEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mdNOTEUITests.swift; sourceTree = "<group>"; };
 		8BCCD0B6293B4FD500FBA3EA /* mdNOTEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mdNOTEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BCCD0C3293B502800FBA3EA /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		8BCCD0C5293B505600FBA3EA /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				8BCCD098293B4FD200FBA3EA /* mdNOTEApp.swift */,
 				8BCCD09A293B4FD200FBA3EA /* ContentView.swift */,
+				8BCCD0C3293B502800FBA3EA /* EditorView.swift */,
+				8BCCD0C5293B505600FBA3EA /* Preview.swift */,
 				8BCCD09C293B4FD400FBA3EA /* Assets.xcassets */,
 				8BCCD09E293B4FD400FBA3EA /* mdNOTE.entitlements */,
 				8BCCD09F293B4FD400FBA3EA /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCCD0C4293B502800FBA3EA /* EditorView.swift in Sources */,
 				8BCCD09B293B4FD200FBA3EA /* ContentView.swift in Sources */,
+				8BCCD0C6293B505600FBA3EA /* Preview.swift in Sources */,
 				8BCCD099293B4FD200FBA3EA /* mdNOTEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

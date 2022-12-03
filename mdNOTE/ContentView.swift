@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var previewFlg = false
+    @State var text: String
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if previewFlg {
+                Preview(text: $text)
+            } else {
+                EditorView(text: $text)
+            }
+            Picker(selection: $previewFlg, label: Text("Picker")) {
+                Text("エディタ").tag(false)
+                Text("プレビュー").tag(true)
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            
         }
         .padding()
     }
@@ -21,6 +30,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(text: "")
     }
 }
